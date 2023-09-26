@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="362.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.MenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="362.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.repaso_programacion.MenuController">
    <children>
-      <Button fx:id="btnLimpiar" layoutX="437.0" layoutY="308.0" mnemonicParsing="false" text="Limpiar" />
+      <Button fx:id="btnLimpiar" layoutX="437.0" layoutY="308.0" mnemonicParsing="false" onAction="#botonLimpiar" text="Limpiar" />
       <Button fx:id="btnGuardar" layoutX="326.0" layoutY="308.0" mnemonicParsing="false" onAction="#botonGuardar" text="Guardar" />
-      <Button fx:id="btnBuscar" layoutX="228.0" layoutY="308.0" mnemonicParsing="false" text="Buscar" />
+      <Button fx:id="btnBuscar" layoutX="228.0" layoutY="308.0" mnemonicParsing="false" onAction="#botonBuscar" text="Buscar" />
       <Button fx:id="btnIngresos" layoutX="73.0" layoutY="307.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="109.0" text="Ingresos Totales" />
       <Label layoutX="254.0" layoutY="14.0" text="Clientes">
          <font>
