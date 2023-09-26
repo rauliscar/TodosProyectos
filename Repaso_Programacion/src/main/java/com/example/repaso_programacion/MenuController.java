@@ -147,6 +147,41 @@ public class MenuController {
 
     }
 
+    @FXML
+    void botonCalcularIngresos(ActionEvent event){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setHeaderText(null);
+        alert.setTitle("Información");
+        alert.setContentText("El importe total de los ingresos es: " + calcularIngresosTotales() + " euros");
+        alert.showAndWait();
+    }
+
+
+    //Métodos
+
+    public double calcularPagoAnuncios(int nAnuncios){
+        return nAnuncios*60.3;
+    }
+
+    public double calcularPagoUsuario(boolean isPremium, double descuento){
+        double total;
+        if (isPremium){
+            return total = 35.5 - descuento;
+        } else{
+            return total = 20.5 - descuento;
+        }
+    }
+
+    public double calcularIngresosTotales(){
+        double totalIngresos = 0;
+
+        for (Usuario u : usuarios) {
+            totalIngresos += calcularPagoUsuario(u.isPremium(), u.getDescuento());
+        }
+
+        return totalIngresos;
+    }
+
 }
 
 

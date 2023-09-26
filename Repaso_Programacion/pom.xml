@@ -65,7 +65,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.repaso_programacion/com.example.repaso_programacion.HelloApplication
+                                com.example.repaso_programacion/com.example.repaso_programacion.FormularioApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

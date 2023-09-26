@@ -21,4 +21,5 @@ public class Anunciante extends Cliente{
     public void setnAnuncios(int nAnuncios) {
         this.nAnuncios = nAnuncios;
     }
+
 }
