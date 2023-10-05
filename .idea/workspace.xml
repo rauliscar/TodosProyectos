@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="900ed2b7-5995-4ef1-9e71-0301ed5ea27e" name="Changes" comment="">
+    <list default="true" id="900ed2b7-5995-4ef1-9e71-0301ed5ea27e" name="Changes" comment="Segundo commit de prueba">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repaso_Programacion/src/main/java/com/example/repaso_programacion/Anunciante.java" beforeDir="false" afterPath="$PROJECT_DIR$/Repaso_Programacion/src/main/java/com/example/repaso_programacion/Anunciante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repaso_Programacion/src/main/java/com/example/repaso_programacion/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Repaso_Programacion/src/main/java/com/example/repaso_programacion/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repaso_Programacion/src/main/resources/com/example/repaso_programacion/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Repaso_Programacion/src/main/resources/com/example/repaso_programacion/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PruebaGit2" beforeDir="false" afterPath="$PROJECT_DIR$/PruebaGit2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repaso_Programacion/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Repaso_Programacion/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodosProyectos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TodosProyectos.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Raúl/IdeaProjects/TodosProyectos/Repaso_Programacion",
+    "last_opened_file_path": "C:/Users/DAM.LAPTOP-DFRKH0GD/IdeaProjects/TodosProyectos/Repaso_Programacion",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
